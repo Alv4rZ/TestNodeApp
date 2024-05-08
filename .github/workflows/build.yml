@@ -4,7 +4,8 @@ jobs:
     runs-on: ubuntu-latest
     container: node:16
     steps: 
+      - run: echo "Juan Pablo Alvarez Camarena"
       - run: node --version
-      - run: npm --version
+      - run: echo "Expediente 739399"
       - uses: actions/checkout@v3
       - run: node app.js

@@ -1,7 +1,0 @@
-on: push
-jobs:
-  build-node:
-    runs-on: ubuntu-latest
-    container: nginx
-    steps: 
-      - run: nginx -v
